@@ -33,7 +33,6 @@ a {
   -o-transition: color 0.25s, background 0.25s;
   transition: color 0.25s, background 0.25s;
 }
-
 a:hover {
   color: #e76f33;
   text-decoration: none;
@@ -708,12 +707,12 @@ section * {
 }
 .navbar-header .maru-title {
   font-family: "Comfortaa", "Century Gothic", CenturyGothic, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  letter-spacing: 0.25em;
+  letter-spacing: 0.13em;
   font-size: 44px;
   color: black;
-  position: absolute;
+  position: relative;
   left: 75px;
-  bottom: 30px;
+  bottom: 80px;
 }
 
 .navbar-header .maru-subtitle {
@@ -722,19 +721,21 @@ section * {
   font-size: 20px;
   font-weight: normal;
   color: black;
-  position: absolute;
+  position: relative;
   left: 75px;
-  bottom: 10px;
+  bottom: 85px;
 }
 
 @media (max-width:768px) {
   .navbar-header .maru-title {
     font-size: 30px;
-    left: 50px;
+    left: 40px;
+    bottom: 35px;
   }
   .navbar-header .maru-subtitle {
     font-size: 16px;
-    left: 50px;
+    left: 40px;
+    bottom: 40px;
   }
 }
 
@@ -900,7 +901,7 @@ hr {
   width:80%;
   align:center;
   color: #e76f33;
-  height: 2px;
+  height: 1px;
   border: none;
   background-color: #e76f33;
 }
@@ -913,7 +914,14 @@ hr {
 @media (max-width: 767px) {
   .seperator {
     padding-top: 30px;
+  }
 
+  .seperator hr {
+    width: 100%;
+  }
+
+  .seperator img {
+    top: -31px;
   }
 }
 /**
@@ -1620,6 +1628,7 @@ hr {
     margin: auto;
     z-index: auto;
     position: relative;
+    margin-bottom: 70px;
   }
 
   .overlay h3 {
@@ -1638,7 +1647,7 @@ hr {
 }
 .maru-header .maru-header-box {
   background-color: #e76f33;
-  padding-bottom: 30px;
+  padding-bottom: 20px;
 }
 .maru-header .maru-header-image-box {
   margin: 0;
@@ -1665,12 +1674,13 @@ hr {
   }
 
   .maru-header .maru-header-image-box .center-image{
+    width: 100%;
   }
 }
 
 .content-38 {
   text-align: center;
-  padding-bottom: 50px;
+  padding-bottom: 0px;
   padding-top: 20px;
 }
 .content-38 .sample-box {
@@ -1693,6 +1703,12 @@ hr {
 
 .content-38 .maru-gallery-more {
   margin-top: 50px;
+  font-size: 25px;
+}
+
+.maru-gallery-more {
+  margin-top : 50px;
+  margin-bottom: 40px;
   font-size: 25px;
 }
 
@@ -1746,8 +1762,8 @@ hr {
 }
 @media (max-width: 767px) {
   .content-32 {
-    padding-top: 20px;
-    padding-bottom: 40px;
+    padding-top: 10px;
+    padding-bottom: 60px;
   }
 }
 /**
@@ -2153,7 +2169,7 @@ hr {
 
 @media (max-width: 1024px) {
   .maru-shop .shopping-box {
-    height: 338px;
+    height: 310px;
     width: 204px;
   }
 
@@ -2167,6 +2183,8 @@ hr {
 @media (max-width: 767px) {
   .maru-shop .shopping-box {
     box-shadow: none;
+    margin-top: 0px;
+    margin-bottom: 70px;
   }
 }
 
@@ -2255,7 +2273,7 @@ hr {
 
 @media (max-width: 767px) {
   .maru-follow {
-    margin-top: 20px;
+    margin-top: -20px;
   }
   .maru-follow-social {
     margin-top: 30px;
