@@ -1717,7 +1717,10 @@ hr {
   padding-top: 60px;
   padding-bottom: 55px;
   text-align: left;
-  color: #ffffff;
+  color: #7f8c8d;
+  font-size: 20px;
+  line-height: 36px;
+  font-weight: normal;
   font-family: "Century Gothic", CenturyGothic, Microsoft JhengHei, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 .content-32 .lead {
@@ -2158,9 +2161,19 @@ hr {
   margin-top: 50px;
 }
 
+.maru-shop .shop-store {
+  margin-top: 50px;
+  font-size: 25px;
+}
+
 .maru-shop .shopping-box .item-title {
-  margin-right: 30px;
+  margin-right: 10px;
   margin-top: 30px;
+  width: 110px;
+}
+
+.maru-shop .shopping-box a {
+  color: white;
 }
 
 .maru-shop .shopping-box .item-subtitle {
@@ -2175,6 +2188,7 @@ hr {
 
   .maru-shop .shopping-box .item-title {
     margin-top: 10px;
+    width: 180px;
   }
   .maru-shop .shopping-box .item-subtitle {
     width: 180px;
@@ -2204,11 +2218,11 @@ hr {
 }
 
 .maru-shop .maru-download-btn {
-  margin-top: 60px;
+  margin-top: 20px;
   line-height: 10px;
   margin-right: 10px;
   font-size:14px;
-  color:white
+  color:white;
 }
 
 @media (max-width: 1024px) {
@@ -2223,13 +2237,9 @@ hr {
   }
 }
 
-.maru-shop a {
-  color: white;
-}
-
 .maru-follow {
-  margin-top: 80px;
-  margin-bottom: 80px;
+  margin-top: 60px;
+  margin-bottom: 100px;
 }
 
 .maru-follow .maru-follow-box {
@@ -2297,7 +2307,7 @@ hr {
 .footer-2 a:hover,
 .footer-2 a:focus,
 .footer-2 a.active {
-  color: #979c9f;
+  color: #000;
 }
 .footer-2 nav ul {
   list-style: none;
@@ -2311,7 +2321,7 @@ hr {
 .footer-2 nav ul li {
   float: left;
   margin-left: 25px;
-  line-height: 25px;
+  line-height: 50px;
 }
 .footer-2 nav ul li:first-child {
   margin-left: 0;
