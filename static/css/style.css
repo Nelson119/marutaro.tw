@@ -914,6 +914,7 @@ hr {
 @media (max-width: 767px) {
   .seperator {
     padding-top: 30px;
+    padding-bottom: 0px;
   }
 
   .seperator hr {
@@ -1645,6 +1646,10 @@ hr {
   }
 
 }
+
+.maru-header {
+  margin-bottom: 52px;
+}
 .maru-header .maru-header-box {
   background-color: #e76f33;
   padding-bottom: 20px;
@@ -1666,6 +1671,9 @@ hr {
 }
 
 @media (max-width: 767px) {
+  .maru-header {
+    margin-bottom: 20px;
+  }
   .maru-header .maru-header-box {
     background-color: #fff;
   }
@@ -1681,7 +1689,7 @@ hr {
 .content-38 {
   text-align: center;
   padding-bottom: 0px;
-  padding-top: 20px;
+  padding-top: 75px;
 }
 .content-38 .sample-box {
   margin-top: 5px;
@@ -1712,10 +1720,14 @@ hr {
   font-size: 25px;
 }
 
+.glyphicon {
+  font-size: 36px;
+}
+
 .content-32 {
   position: relative;
-  padding-top: 60px;
-  padding-bottom: 55px;
+  padding-top: 65px;
+  padding-bottom: 52px;
   text-align: left;
   color: #7f8c8d;
   font-size: 20px;
@@ -2158,7 +2170,7 @@ hr {
   width: 338px;
   color: #111;
   background-color: #fee6c5;
-  margin-top: 50px;
+  margin-top: 75px;
 }
 
 .maru-shop .shop-store {
@@ -2198,7 +2210,7 @@ hr {
   .maru-shop .shopping-box {
     box-shadow: none;
     margin-top: 0px;
-    margin-bottom: 70px;
+    margin-bottom: 30px;
   }
 }
 
@@ -2227,19 +2239,22 @@ hr {
 
 @media (max-width: 1024px) {
   .maru-shop .maru-download-btn {
-    margin-top: 20px;
+    margin-top: 10px;
+  }
+  .maru-shop .shopping-box .item-subtitle {
+    font-size: 10px;
   }
 }
 
 @media (max-width: 767px) {
   .maru-shop .maru-download-btn {
-    margin-top: 20px;
+    margin-top: 10px;
   }
 }
 
 .maru-follow {
-  margin-top: 60px;
-  margin-bottom: 100px;
+  margin-top: 56px;
+  margin-bottom: 116px;
 }
 
 .maru-follow .maru-follow-box {
@@ -2284,6 +2299,7 @@ hr {
 @media (max-width: 767px) {
   .maru-follow {
     margin-top: -20px;
+    margin-bottom: 50px;
   }
   .maru-follow-social {
     margin-top: 30px;
